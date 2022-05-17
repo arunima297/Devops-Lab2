@@ -1,0 +1,6 @@
+FROM 
+LABEL maintainer=arunimadas297@gmail.com
+RUN apt-get update
+CMD ["DevOps lab"]
+ENTRYPOINT ["echo", "You are doing"]
+
